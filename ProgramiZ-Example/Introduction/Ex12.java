@@ -1,3 +1,5 @@
+// Java Program to Round a Number to n Decimal Places
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -12,7 +14,7 @@ public class Ex12 {
 
         // Define the decimal format pattern for rounding
         // "0.00" means round to two decimal places
-        DecimalFormat decimalFormat = new DecimalFormat("0.00");
+        DecimalFormat decimalFormat = new DecimalFormat("0.000");
 
         // Format the number using the specified pattern
         String roundedNumber = decimalFormat.format(number);

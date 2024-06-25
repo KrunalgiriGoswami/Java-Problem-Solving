@@ -1,6 +1,6 @@
 // Find Largest Among three numbers using if..else statement
 
-public class Largest {
+public class Ex9 {
 
     public static void main(String[] args) {
 

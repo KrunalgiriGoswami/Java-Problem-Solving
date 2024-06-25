@@ -2,18 +2,26 @@
 
 import java.util.Scanner;
 
-public class VowelConsonant {
-
+public class Ex8 {
     public static void main(String[] args) {
+        // Create a Scanner object to read input
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter to Check whether an alphabet is vowel or consonant : ");
-        char ch = sc.next().charAt(0);
+        // Prompt the user to enter an alphabet
+        System.out.print("Enter an alphabet: ");
+        char ch = scanner.next().toLowerCase().charAt(0);
 
-        if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' )
-            System.out.println(ch + " is vowel");
-        else
-            System.out.println(ch + " is consonant");
+        // Check if the character is a single alphabet
+        if (Character.isLetter(ch)) {
+            // Check if the character is a vowel
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                System.out.println(ch + " is a vowel.");
+            } else {
+                System.out.println(ch + " is a consonant.");
+            }
+        } else {
+            System.out.println("Invalid input. Please enter a single alphabetic character.");
+        }
 
     }
 }

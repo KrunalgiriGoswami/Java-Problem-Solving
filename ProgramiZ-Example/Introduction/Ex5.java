@@ -1,6 +1,6 @@
 // Compute Quotient and Remainder
 
-public class QuotientRemainder {
+public class Ex5 {
 
   public static void main(String[] args) {
 

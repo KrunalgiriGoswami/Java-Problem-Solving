@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Ex11 {
     public static void main(String[] args) {
+
         // Create a Scanner object to read input
         Scanner scanner = new Scanner(System.in);
 
@@ -15,7 +16,5 @@ public class Ex11 {
         // Display the string without whitespaces
         System.out.println("String without whitespaces: " + stringWithoutWhitespaces);
 
-        // Close the scanner
-        scanner.close();
     }
 }
